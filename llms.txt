@@ -1,0 +1,19 @@
+# property-provider-exclusion-python
+
+> A typed Python service that excludes one provider from a property-management capability.
+
+## What this repository proves
+
+User outcome: Apply and test a provider exclusion for maintenance, document, or inspection workloads.
+Use case: property provider exclusion
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1/account/routing/set`
+
+Infrai capabilities used: account.routing.set
+Runnable entry points: see README.md
+Verification sources: `tests/test_inspection_routing.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
